@@ -1,0 +1,28 @@
+{
+    "name": "dq/e-invoice",
+    "description": "綠界電子發票的SDK",
+    "authors": [
+        {
+            "name": "kunmin",
+            "email": "tomer.rd02@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.7",
+        "orchestra/testbench": "^3.4",
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DQ\\EInvoice\\": "src/",
+            "SDK\\": "sdk/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}

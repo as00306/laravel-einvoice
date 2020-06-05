@@ -1,0 +1,15 @@
+stages:
+- test
+
+cache:
+  key: "$CI_BUILD_STAGE"
+  paths:
+  - vendor
+
+# composer 安裝與 PHPUnit
+test_job:
+  stage: test
+
+  script:
+  - composer install
+  - vendor/bin/phpunit
