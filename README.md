@@ -8,7 +8,8 @@
     "repositories": [
         {
             "type": "git",
-            "url": "ssh://git@git.dunqian.tw:30001/itrd/pkg-ecpay-einvoice.git"
+            "url": "ssh://git@github.com:as00306/laravel-einvoice.git"
+            
         }
     ],
 ~~~
